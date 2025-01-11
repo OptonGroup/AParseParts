@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "parse-avito-kwork"
+version = "0.1.0"
+description = ""
+authors = ["vladmironov <vlad372@yandex.ru>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+beautifulsoup4 = "4.12.3"
+selenium = "4.9.1"
+chromedriver-autoinstaller = "0.6.4"
+chromedriver-binary-auto = "0.3.1"
+undetected-chromedriver = "3.5.5"
+requests = "2.31.0"
+setuptools = "^70.1.0"
+python-dotenv = "^1.0.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
